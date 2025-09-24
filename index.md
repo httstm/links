@@ -9,8 +9,11 @@
 ## 技術デモ
 
 ### GPT for Citizens Demo（Streamlit）
-![デモスクショ](citizens-demo.png)  
+
+<img src="citizens-demo.png" alt="デモ" border="1px #d3d3d3 solid" width="80%">
+
 [▶ 実際に触ってみる](https://gpt-for-citizens-demo.streamlit.app/)  
+
 （※ 無料版ホスティングのため、初回アクセス時に起動待ちが発生します）
 
 - **背景**：Git / Python / FastAPI / Streamlit をゼロから習得し、OpenAI API接続デモを構築  
