@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # ポートフォリオ
 
 ## 自己紹介
