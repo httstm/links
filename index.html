@@ -24,7 +24,7 @@
     h3 { font-size: 1.2em; margin-top: 1.5em; border-bottom: 1px solid #ddd}
     h4,p { margin-left: 2.0em; }
     img { display: block; margin: 1em 3em; border: 1px solid #ccc; border-radius: 6px; }
-    hr { margin: 2em 0; }0
+    hr { margin: 2em 0; }
     ul { margin-left: 1.5em; }
     a { color: #0066cc; } 
 	li .desc { padding-left: 1em; }
@@ -41,7 +41,24 @@
 
 <h2 id="技術デモ">技術デモ</h2>
 
-<h3 id="gpt-for-citizens-demostreamlit">GPT for Citizens Demo（Streamlit）</h3>
+<h3 id="English Trainer"><a href="https://chatgpt.com/g/g-69ba7232ef848191bd2d656a60716562-english-trainer" target="_blank">English Trainer ～設計と再構成～</a></h3>
+<ul>
+	<li><b>背景：</b>語学アプリのロールプレイ機能が、生成AIでも実現できるのではないかと考えた。</li>
+	<li><b>成果：</b>カスタムGPTでロールプレイ型の英会話学習を構築。対話ベースの学習を成立させた。</li>
+	<li><b>意義：</b>「会話・即時応答・フィードバック」の流れを整理し、生成AIでもシンプルに再現できることを検証した。</li>
+</ul>
+
+<h3 id="RPG_matching"><a href="https://httstm.github.io/voter-match/RPG_matching/" target="_blank">RPG職業適性診断 ～ロジック設計～</a></h3>
+<ul>
+  <li><strong>背景</strong>：価値観マッチングの構造を抽象化し、テーマ差し替え可能な静的Webアプリとして再設計。</li>
+  <li><strong>成果</strong>：CSVベースの職業データとユーザー入力を距離計算（L2）で比較し、一致度を算出する診断アプリを実装。</li>
+  <li><strong>意義</strong>：ロジックとUIを分離し、データ差し替えのみで他テーマへ展開可能な構造を検証。</li>
+</ul>
+<a href="https://httstm.github.io/voter-match/RPG_matching/" target="_blank"><img src="RPG-demo_mini.png" alt="デモ"/></a></div>
+
+<h4 id="RPG_matching_zenn"><a href="https://zenn.dev/hydrangea01/articles/e644ce6c7370d7" target="_blank">生成AIを使って、マッチングアプリのプロトタイプを作った話</a></h4>
+
+<h3 id="gpt-for-citizens-demostreamlit"><a href="https://gpt-for-citizens-demo.streamlit.app/" target="_blank">GPT for Citizens Demo（Streamlit）～技術検証～</a></h3>
 <ul>
   <li><strong>背景</strong>：ChatGPTのサポートをもとに、Git / Python / FastAPI / Streamlit をゼロから学習し、OpenAI APIを用いた接続デモを構築しました。  </li>
   <li><strong>成果</strong>：短期間で必要な知識をキャッチアップし、動作する形として検証しました。  </li>
@@ -55,23 +72,6 @@
 <p>新しい技術領域への理解を深めるため、環境構築から本番運用までを一連で学習し、その過程をZennで整理・共有しました。  <br>
 学びを形式化することで、再現性のある実装プロセスを可視化しています。</p>
 
-<h3 id="RPG_matching">RPG職業適性診断</h3>
-<ul>
-  <li><strong>背景</strong>：価値観マッチングの構造を抽象化し、テーマ差し替え可能な静的Webアプリとして再設計。</li>
-  <li><strong>成果</strong>：CSVベースの職業データとユーザー入力を距離計算（L2）で比較し、一致度を算出する診断アプリを実装。</li>
-  <li><strong>意義</strong>：ロジックとUIを分離し、データ差し替えのみで他テーマへ展開可能な構造を検証。</li>
-</ul>
-<a href="https://httstm.github.io/voter-match/RPG_matching/" target="_blank"><img src="RPG-demo_mini.png" alt="デモ"/></a></div>
-
-<h4 id="RPG_matching_zenn"><a href="https://zenn.dev/hydrangea01/articles/e644ce6c7370d7" target="_blank">生成AIを使って、マッチングアプリのプロトタイプを作った話</a></h4>
-
-<h3 id="cooki"><a href="https://chatgpt.com/g/g-68f2d91a1a8c81919ae124d62cfe8c93-cooki-everyday-recipe-buddy" target="_blank">Cooki 🍪 — Everyday Recipe Buddy]</a></h3>
-<ul>
-	<li><b>概要：</b>冷蔵庫にある食材から料理を考えるレシピGPT。  
-    GPT-5を活用し、日常生活の中で使えるAI提案の形を試作しました。</li>
-	<li><b>意義：</b>生活の小さな課題をAIと一緒に解決するプロトタイプとして、  
-    技術をより身近に活かす方法を検討しました。</li>
-</ul>
 	  
 <!--
 ### API 検証（7119 前段階モデル）
@@ -107,22 +107,15 @@
 </ul>
 
 
-<h2 id="その他リンク">その他リンク</h2>
+<h2 id="その他">その他</h2>
 <ul>
-  <li><a href="https://www.amazon.co.jp/s?i=digital-text&rh=p_27%3ASatomi%2BHotta" target="_blank">Amazon著者ページ</a>
-  <span>　～生成AIを活用した表現活動の一環として掲載しています～</span></li>
-  <li>
-	<ul>
-		<li>ジャンヌダルクと27枚のExcel — 現代職場を舞台とした構造と倫理の寓話  </li>
-		<li>生成AIとの歩き方 — 生成AIとの対話を「構造と関係性のケア」として扱う対話設計論</li>
-	</ul></li>
+  <li><a href="https://www.amazon.co.jp/s?i=digital-text&rh=p_27%3ASatomi%2BHotta" target="_blank">生成AIを活用した創作活動（Amazon著者ページ）</a></li>
 </ul>
 
 <hr />
 <p>※ 詳細な職務経歴は履歴書／職務経歴書をご参照ください。</p>
 
-
-      
+     
     </div>
   </body>
 </html>
