@@ -1,1 +1,5 @@
-theme: minima
+theme: jekyll-theme-leap-day
+title: ポートフォリオ
+description: 業務効率化 × 構造設計
+show_downloads: false
+
