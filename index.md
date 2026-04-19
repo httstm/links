@@ -22,7 +22,7 @@ layout: default
 
 ※ 業務課題の構造整理・スコープ定義・運用設計能力を示すための検証ケース
 
-▶ [ランディングページはこちら](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
+▶ [ランディングページはこちら](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
 
 #### 導入課題
 
