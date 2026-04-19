@@ -1,6 +1,5 @@
 ---
-layout: home
-title: ポートフォリオ
+layout: default
 ---
 
 ## 自己紹介
