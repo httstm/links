@@ -1,6 +1,6 @@
 ---
 ---
-@import "jekyll-theme-leap-day";
+@import "{{ site.theme }}";
 
 body {
   /* 日本語を読みやすく、少し太く、ハッキリしたフォントに */
@@ -10,6 +10,8 @@ body {
 }
 
 /* ボタンを強制的に非表示にするCSS（これなら絶対消えます） */
-.button .fork {
+#downloads .button, 
+.fork,
+.button.fork {
   display: none !important;
 }
