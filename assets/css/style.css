@@ -10,6 +10,6 @@ body {
 }
 
 /* ボタンを強制的に非表示にするCSS（これなら絶対消えます） */
-#view-on-github {
+#banner .fork {
   display: none !important;
 }
