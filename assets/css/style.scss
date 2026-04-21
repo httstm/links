@@ -8,10 +8,10 @@ body {
   color: #111 !important; /* 真っ黒に近くして視認性を上げる */
 }
 
-section{
-  /* 横幅がmax-weight:600pxになっていた */
-width:80% !important;
-}
+section{width:80%;}
+
+@media print, screen and (max-width: 1060px;){
+section{max-width:80%;}
 
 /* ボタンを強制的に非表示にするCSS（これなら絶対消えます） */
 #downloads .button, 
