@@ -45,14 +45,16 @@ layout: default
 業務構造の整理・スコープ定義を通じて、手戻りを防ぎ設計精度を高める
 
 - AIチャットボット導入｜業務フロー設計｜運用設計｜実装
+
   ▶ [デモ(LP)](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
   ▶ [設計資料（Notion）](https://www.notion.so/AI-34a377fc3a7880e487bbf6f7bf589959)
 
 - [マッチングプロトタイプ](https://zenn.dev/hydrangea01/articles/e644ce6c7370d7)｜構成分離設計｜PoC｜検証性確保    
 
-- [問いを先回りする設計](https://zenn.dev/hydrangea01/articles/93296b83297d28)スコープ設計｜要件定義｜探索範囲と効率のトレードオフ整理
+- [問いを先回りする設計](https://zenn.dev/hydrangea01/articles/93296b83297d28)｜スコープ設計｜要件定義｜探索範囲と効率のトレードオフ整理
 
 - ソリティア設計｜仕様境界・操作統合｜PoC｜許容範囲定義
+
    ▶ [記事](https://zenn.dev/hydrangea01/articles/c0b9d13540b31c)
    ▶ [実際に触る](https://httstm.github.io/voter-match/solitaire/your-friend-solitaire.html)
    
