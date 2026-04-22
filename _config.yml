@@ -1,9 +1,1 @@
-theme: jekyll-theme-leap-day
-title: ポートフォリオ
-description: 業務効率化 × 構造設計
-
-# 強引にボタンの中身を空っぽにする設定
-github:
-  repository_url: ""
-  zip_url: ""
-  tar_url: ""
+theme: jekyll-theme-hacker
