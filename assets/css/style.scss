@@ -8,8 +8,7 @@ body {
   color: #111 !important; /* 真っ黒に近くして視認性を上げる */
 }
 
-section{width:80%;}
-
+/*横幅を広げる*/
 section {
   width: 80%;
 }
@@ -18,6 +17,11 @@ section {
   section {
     max-width: 80%;
   }
+}
+
+/* リストが画像だったので削除。*/
+ul{
+    list-style-image: none;
 }
 
 /* ボタンを強制的に非表示にするCSS（これなら絶対消えます） */
