@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+---
+layout: default
+---
 
 ## 自己紹介
 
@@ -18,11 +21,11 @@ layout: default
 
 #### 課題と対応方針　
 
-![課題と対応方針](./課題と解決策.png)
+![課題と対応方針](課題と解決策.png)
 
 #### 対応方針を具体化した設計
 
-![課題に対する設計原則](./課題に対する設計原則.png)
+![課題に対する設計原則](課題に対する設計原則.png)
 
 ### 更新型チャットボット（PoC運用事例）
 
@@ -34,32 +37,32 @@ layout: default
 - 小さく始めて段階的に適用範囲を拡大    
 - 想定リスクを踏まえた運用ルールの整理
 
-## ナレッジ（設計・技術記事）
+## ナレッジ（設計・思考・運用）
 
 ### 1. 要件・業務設計
 
 業務構造の整理・スコープ定義を通じて、手戻りを防ぎ設計精度を高める
 
-- [ソリティア設計（ChatGPTとの検証開発）](https://zenn.dev/hydrangea01/articles/1990e2f9f23517)（許容範囲定義・操作統合）
-    
 - [マッチングロジック検証（プロトタイプ設計）](https://zenn.dev/hydrangea01/articles/e644ce6c7370d7)（構成分離による検証性確保）
     
 - [問いを先回りする設計（要件定義のスコープ制御）](https://zenn.dev/hydrangea01/articles/93296b83297d28)（探索範囲と効率のトレードオフ）
-    
-- AIチャットボット導入支援（設計〜運用フロー） ▶ [デモを見る](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
-    
-
+- ソリティア設計（ChatGPTとの検証開発）（許容範囲定義・操作統合）
+   ▶ [記事](https://zenn.dev/hydrangea01/articles/c0b9d13540b31c)
+   ▶ [実際に触る](https://httstm.github.io/voter-match/solitaire/your-friend-solitaire.html)
+- AIチャットボット導入支援（設計〜運用フロー） 
+  ▶ [デモ(LP)](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
+  ▶ [設計資料（Notion）](https://www.notion.so/AI-34a377fc3a7880e487bbf6f7bf589959)
 ### 2. AI適用・リスク設計
 
 AIの適用範囲と制約を定義し、誤作動やリスクを制御する
-
-- English Trainer（対話設計・プロンプト設計） ▶ [デモはこちら](https://chatgpt.com/g/g-69ba7232ef848191bd2d656a60716562-english-trainer)
     
 - [詐欺検知レイヤ設計（「この動画、本当に本人？」）](https://zenn.dev/hydrangea01/articles/7a0a47cfac41fc)
     
 - [境界制御設計（「会話できる遺影」）](https://zenn.dev/hydrangea01/articles/265e9b5cbe572d)
     
 - [複数AIの役割分担設計（キャリア再設計）](https://zenn.dev/hydrangea01/articles/4b6e601c67c157)
+- [カスタムGPTの設計・運用（役割分離と継続的調整） ](https://zenn.dev/hydrangea01/articles/ada1274ebdc876) 
+- [生成AIを用いた思考整理・意思決定支援プロセス設計](https://zenn.dev/hydrangea01/articles/4b6e601c67c157)
     
 
 ### 3. 実装・検証（PoC）
@@ -73,7 +76,7 @@ AIの適用範囲と制約を定義し、誤作動やリスクを制御する
 - [長文セッションの運用設計（分割・引き継ぎ）](https://zenn.dev/hydrangea01/articles/eb32bdb24a2225)
     
 
-### 4. 合意形成・スコープ設計（補助）
+### 4. 合意形成・スコープ設計
 
 要件定義におけるスコープ制御と対話設計
 
