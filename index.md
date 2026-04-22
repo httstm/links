@@ -30,7 +30,8 @@ layout: default
 ### 更新型チャットボット（PoC運用事例）
 
 ※ 更新前提の運用設計・リスク管理・段階導入設計を示すためのケース
-※ 特定領域向けに試験導入し、一定期間の運用後に終了（方針変更による）
+
+※ 特定領域向けに試験導入し、一定期間の運用後に再検討フェーズとして終了
 
 - 情報更新を前提とした運用の組み立て    
 - 利用ログを取得し、改善判断に活用    
@@ -43,15 +44,20 @@ layout: default
 
 業務構造の整理・スコープ定義を通じて、手戻りを防ぎ設計精度を高める
 
-- [マッチングロジック検証（プロトタイプ設計）](https://zenn.dev/hydrangea01/articles/e644ce6c7370d7)（構成分離による検証性確保）
-    
-- [問いを先回りする設計（要件定義のスコープ制御）](https://zenn.dev/hydrangea01/articles/93296b83297d28)（探索範囲と効率のトレードオフ）
-- ソリティア設計（ChatGPTとの検証開発）（許容範囲定義・操作統合）
-   ▶ [記事](https://zenn.dev/hydrangea01/articles/c0b9d13540b31c)
-   ▶ [実際に触る](https://httstm.github.io/voter-match/solitaire/your-friend-solitaire.html)
-- AIチャットボット導入支援（設計〜運用フロー） 
+- AIチャットボット導入｜業務フロー設計｜運用設計｜実装
   ▶ [デモ(LP)](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
   ▶ [設計資料（Notion）](https://www.notion.so/AI-34a377fc3a7880e487bbf6f7bf589959)
+
+- [マッチングプロトタイプ](https://zenn.dev/hydrangea01/articles/e644ce6c7370d7)｜構成分離設計｜PoC｜検証性確保    
+
+- [問いを先回りする設計](https://zenn.dev/hydrangea01/articles/93296b83297d28)スコープ設計｜要件定義｜探索範囲と効率のトレードオフ整理
+
+- ソリティア設計｜仕様境界・操作統合｜PoC｜許容範囲定義
+   ▶ [記事](https://zenn.dev/hydrangea01/articles/c0b9d13540b31c)
+   ▶ [実際に触る](https://httstm.github.io/voter-match/solitaire/your-friend-solitaire.html)
+   
+
+
 ### 2. AI適用・リスク設計
 
 AIの適用範囲と制約を定義し、誤作動やリスクを制御する
@@ -61,7 +67,9 @@ AIの適用範囲と制約を定義し、誤作動やリスクを制御する
 - [境界制御設計（「会話できる遺影」）](https://zenn.dev/hydrangea01/articles/265e9b5cbe572d)
     
 - [複数AIの役割分担設計（キャリア再設計）](https://zenn.dev/hydrangea01/articles/4b6e601c67c157)
+
 - [カスタムGPTの設計・運用（役割分離と継続的調整） ](https://zenn.dev/hydrangea01/articles/ada1274ebdc876) 
+
 - [生成AIを用いた思考整理・意思決定支援プロセス設計](https://zenn.dev/hydrangea01/articles/4b6e601c67c157)
     
 
