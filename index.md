@@ -14,7 +14,8 @@ layout: default
 
 ※ 業務課題の構造整理・スコープ定義・運用設計能力を示すための検証ケース
 
-▶ [ランディングページはこちら](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
+  ▶ [ランディングページ(Notion)](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
+  ▶ [設計資料（Notion）](https://www.notion.so/AI-34a377fc3a7880e487bbf6f7bf589959)
 
 #### 課題と対応方針　
 
@@ -40,11 +41,6 @@ layout: default
 ### 1. 要件・業務設計
 
 業務構造の整理・スコープ定義を通じて、手戻りを防ぎ設計精度を高める
-
-- AIチャットボット導入｜業務フロー設計｜運用設計｜実装
-
-  ▶ [デモ(LP)](https://www.notion.so/AI-336377fc3a7880bc9025ce6f70505eeb)
-  ▶ [設計資料（Notion）](https://www.notion.so/AI-34a377fc3a7880e487bbf6f7bf589959)
 
 - [マッチングプロトタイプ](https://zenn.dev/hydrangea01/articles/e644ce6c7370d7)｜構成分離設計｜PoC｜検証性確保    
 
