@@ -2,7 +2,7 @@
 layout: default
 ---
 
-> GitHub Pages の [Hacker theme](https://pages-themes.github.io/hacker/) をベースに、ポートフォリオ用途に合わせて表示・導線を調整しています。
+> GitHub Pages の [Hacker theme](https://pages-themes.github.io/hacker/) を使用した旧ポートフォリオページです。  
 > 
 > 現在のポートフォリオはこちら： [Notion版ポートフォリオ](https://www.notion.so/34c377fc3a7880dbaec5ea903327a353)
 
