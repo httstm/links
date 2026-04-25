@@ -178,3 +178,30 @@ body{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* footerのアンカー文字を変更 2026/4/25 */
+
+.footer a {
+  color: var(--accent2);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer a:visited {
+  color: var(--accent2);
+}
+
+.footer a:hover {
+  color: var(--text);
+}
+
+.footer {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.footer p {
+  margin: 6px 0;
+}
