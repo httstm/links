@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ことのは税理士事務所｜AIチャットボット（テスト）</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      color: #333;
+    }
+    .center {
+      text-align: center;
+    }
+    hr {
+      margin: 30px 0;
+    }
+    #dify-chatbot-bubble-window [data-testid="citation-title"],
+    #dify-chatbot-bubble-window [data-testid="citation-measurement-item"],
+    #dify-chatbot-bubble-window [data-testid="popup-trigger"] {
+      display: none !important;
+    }
+
+    /* ↓ 追加分 */
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 1.25rem;
+    }
+    .btn-ai {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #1C64F2;
+      color: #fff;
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .btn-form {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Dify設定・スクリプト（省略なし・変更なし） -->
+<script>
+  window.difyChatbotConfig = {
+    token: 'td5ou7k5O6Dq0Qsz',
+    inputs: {},
+    systemVariables: {},
+    userVariables: {},
+  }
+</script>
+<script src="https://udify.app/embed.min.js" id="td5ou7k5O6Dq0Qsz" defer></script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #1C64F2 !important;
+  }
+  #dify-chatbot-bubble-window {
+    width: 24rem !important;
+    height: 40rem !important;
+  }
+</style>
+
+<div class="center">
+  <h3>AIチャットボット（テスト）</h3>
+  <p>右下のチャットからご相談いただけます。</p>
+</div>
+<hr>
+<p>このチャットボットは、<a href="https://cotonoha-office.jp/" target="_blank" rel="noopener noreferrer">ことのは税理士事務所</a>の業務内容をもとに作成した試作デモです。</p>
+<p>税務やお金に関する疑問について、簡単に確認できるようにしています。</p>
+<p>
+  ※本デモは試験的に公開しているものです。<br>
+  内容の正確性や個別のご相談については、正式な対応が必要となる場合があります。
+</p>
+<p>詳細なご相談をご希望の場合は、以下よりお問い合わせください。</p>
+
+<div class="cta-row">
+  <a class="btn-ai"
+     href="https://udify.app/chat/td5ou7k5O6Dq0Qsz"
+     target="_blank" rel="noopener noreferrer">
+    💬 AIチャットで相談する
+  </a>
+  <a class="btn-form"
+     href="https://cotonoha-office.jp/inquiry/"
+     target="_blank" rel="noopener noreferrer">
+    お問い合わせフォーム →
+  </a>
+</div>
+
+</body>
+</html>
